@@ -1,0 +1,17 @@
+/* 
+Color scheme ideas
+
+Cool and Fresh: #05386B, #379683, #5CDB95, #8EE4AF, EDF5E1
+
+Simple Blues: #0B0C10, #1F2833, #C5C6C7, #66FCF1, #45A29E
+*/
+
+@font-face {
+    font-family: Bebe Nues;
+    src: url("/assets/fonts/BebasNeue-Regular.otf");
+}
+
+header h1 {
+    font-family: Bebe Nues;
+    color: #66FCF1;
+}
