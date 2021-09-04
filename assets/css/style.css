@@ -6,12 +6,70 @@ Cool and Fresh: #05386B, #379683, #5CDB95, #8EE4AF, EDF5E1
 Simple Blues: #0B0C10, #1F2833, #C5C6C7, #66FCF1, #45A29E
 */
 
-@font-face {
-    font-family: Bebe Nues;
-    src: url("/assets/fonts/BebasNeue-Regular.otf");
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #5CDB95;
+}
+
+.Infobar {
+    border-bottom: solid #379683;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5CDB95;
 }
 
 header h1 {
-    font-family: Bebe Nues;
-    color: #66FCF1;
+    font-family: 'Bebas Neue', serif;
+    color: #05386B;
+    font-size: 50;
 }
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    margin: auto;
+}
+
+nav ul li a {
+    padding: 10px 25px;
+    color: #05386B;
+    font-family: 'Bebas Neue';
+    font-size: 35;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.Navbar {
+    padding: 20px 20px;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Bebas Neue';
+    color: #EDF5E1;
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 35px;
+  }
