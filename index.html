@@ -20,47 +20,86 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./assets/css/style.css">
-
+ 
 </head>
 
 <body>
+    <main>
     <!-- Header and nav bar -->
-    <section class="Infobar">
-        <header class="Navbar">
-            
-            <h1>Personal Portfolio</h1>
-            <!-- nav bar with navigation stuff  -->
-            <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Contact info</a></li>
-                </ul>
-            </nav>
-        </header>
-    </section>
-
-    <!-- Image and personal info  -->
-    <section class="Info">
-        <div>
-            <div>
-                <h2 class="about">About Me</h2>
-            </div>
-            <div>
-                <p>My name is Ian Miller. I have been an aspiring progammer since high school. I enjoy playing and making music with friends and playing video games.</p>
-            </div>
+        <div class="header-nav">
+                <header class="Navbar">
+                    
+                    <h1>Personal Portfolio</h1>
+                    <!-- nav bar with navigation stuff  -->
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact info</a></li>
+                        </ul>
+                    </nav>
+                </header>
+        
+ 
+            <!-- Image and personal info  -->
+            <section class="Info">
+                <div class="myInfo">
+                    <div class="me">
+                        <h2 class="about">About Me</h2>
+                        <img src="./assets/images/profile.jpg">
+                    </div>
+                    <div>
+                        <p class="bio">My name is Ian Miller. I have been an aspiring programmer since high school. I enjoy playing and making music with friends and playing video games. This website is a collection of projects I have or am currently working on.</p>
+                    </div>
+                </div>
+            </section>
         </div>
-    </section>
+        <!-- work examples -->
+        <section>
+            <div class="projects" id="projects">
+                <div class="project-box">
+                    <div class="project-info">
+                        <h2>Run-Buddy</h2>
+                        <p>This was my first project in web development. For this project we created a mock website for a physical trainer company that had a form for users to fill out and info about the trainers.</p>
+                    </div>
+                    <div class="big-img">
+                        <a href="https://imiller142.github.io/run-buddy/"><img src="./assets/images/Screenshot 2021-09-04 151706.png"/></a>
+                    </div>
+                </div>
 
-    <!-- work examples -->
-    <section>
+                
+                <div class="project-box">
+                    <div class="project-info">
+                        <h2>Etch-a-sketch</h2>
+                        <p>This is a small project I did when I was doing independent study to learn javascript. Its a basic Etch-a-sketch website.</p>
+                    </div>
+                    <div class="project-image Etch">
+                        <a href="https://imiller142.github.io/Etch-A-Sketch/"><img src="./assets/images/Etch.png"></a>
+                    </div>
+                </div>
 
-    </section>
+                <div class="project-box">
+                    <div class="project-info">
+                        <h2>Password Generator</h2>
+                        <p>This project was my first project using javascript. Here the goal was to create a password generator based on user criteria. The password generated needed to use those criteria and be unique every time.</p>
+                    </div>
+                    <div class="project-image">
+                        <a href="https://imiller142.github.io/Password-Generator/"><img src="./assets/images/web.png"></a>
+                    </div>
+                </div>
 
+
+            </div>
+        </section>
+    </main>
     <!-- footer and contact info -->
-    <section>
-        <footer>
-
+    <section id="contact">
+        <footer class="foot">
+            <div class="contact">
+                <p>Contact Me</p>
+                <p>imiller142@gmail.com</p>
+                <p>Git Hub:  <a href="https://github.com/imiller142"> https://github.com/imiller142</a></p>
+            </div>
         </footer>
     </section>
   
