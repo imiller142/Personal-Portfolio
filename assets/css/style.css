@@ -161,9 +161,9 @@ nav a {
 
   .project-box {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       margin: 25px 25px;
-      align-items: center;
+      align-items: inherit;
   }
 
   .project-info {
@@ -187,31 +187,30 @@ nav a {
       width: 100%;
   }
   
-  .project-image {
-      align-content: right;
-      margin-left: 10%;
-  }
+
   
   .project-image img {
       border-radius: 5%;
       background-color: rgb(24, 26, 27);
-      width: 80%;
+      width: 100%;
+      height: 80%;
       object-fit: contain;
-  }
-
-  .etch {
-      object-fit: fill;
-  }
-
-  .project-image, .big-img {
       display: flex;
       justify-content: right;
-  }
+    }
+
+
+
+
 
   .big-img img {
       width: 100%;
       object-fit: cover;
       border-radius: 5%;
+  }
+
+  .etch {
+      padding-left: 10%;
   }
 
 
